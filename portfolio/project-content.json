@@ -1,0 +1,436 @@
+[
+  {
+    "slug": "stereo-vision",
+    "number": "01",
+    "theme": "robot",
+    "repo": "Robot-teleoperation-through-vision",
+    "demo": null,
+    "en": {
+      "title": "Vision-based robot teleoperation",
+      "tag": "Computer vision · Robotics",
+      "lead": "A stereo hand-tracking pipeline connecting 3D perception to UR5e motion.",
+      "meta": [
+        "Team project",
+        "Lund University",
+        "Python · OpenCV · MediaPipe"
+      ],
+      "overview": "Two cameras estimate hand position in 3D. Calibration, triangulation and Kalman filtering connect visual input to the robot-control pipeline.",
+      "work": [
+        "Stereo camera calibration and paired image capture.",
+        "Hand-landmark triangulation and coordinate filtering.",
+        "Integration and documentation with the project team."
+      ],
+      "steps": [
+        [
+          "Capture",
+          "Two camera views and hand landmarks."
+        ],
+        [
+          "Reconstruct",
+          "Calibrated geometry gives 3D coordinates."
+        ],
+        [
+          "Filter",
+          "Kalman filtering smooths position estimates."
+        ],
+        [
+          "Control",
+          "Hand positions map to UR5e commands."
+        ]
+      ],
+      "outcome": "The repository includes the camera workflow, filtering and robot integration. The available plots support a qualitative comparison; repeated-trial accuracy and latency benchmarks are not established.",
+      "gallery": [
+        [
+          "Robot setup",
+          "Physical UR5e test environment.",
+          "/portfolio/stereo-robot.jpg"
+        ],
+        [
+          "Coordinate filtering",
+          "Raw and Kalman-filtered trajectories.",
+          "/portfolio/stereo-kalman.png"
+        ]
+      ]
+    },
+    "zh": {
+      "title": "基于视觉的机器人遥操作",
+      "tag": "计算机视觉 · 机器人",
+      "lead": "通过双目手部追踪，将三维感知连接到 UR5e 运动控制。",
+      "meta": [
+        "团队项目",
+        "隆德大学",
+        "Python · OpenCV · MediaPipe"
+      ],
+      "overview": "两台摄像头估计手部三维位置。相机标定、三角测量和卡尔曼滤波将视觉输入连接到机器人控制管线。",
+      "work": [
+        "双目标定与配对图像采集。",
+        "手部关键点三角测量与坐标滤波。",
+        "与团队共同完成系统集成和文档。"
+      ],
+      "steps": [
+        [
+          "采集",
+          "双摄像头画面与手部关键点。"
+        ],
+        [
+          "重建",
+          "通过标定后的几何关系计算三维坐标。"
+        ],
+        [
+          "滤波",
+          "卡尔曼滤波平滑位置估计。"
+        ],
+        [
+          "控制",
+          "将手部位置映射为 UR5e 指令。"
+        ]
+      ],
+      "outcome": "仓库包含相机流程、滤波与机器人集成。现有曲线可用于定性比较，但未建立多次试验的精度与延迟基准。",
+      "gallery": [
+        [
+          "机器人环境",
+          "UR5e 实验环境。",
+          "/portfolio/stereo-robot.jpg"
+        ],
+        [
+          "坐标滤波",
+          "原始轨迹与卡尔曼滤波后的轨迹。",
+          "/portfolio/stereo-kalman.png"
+        ]
+      ]
+    }
+  },
+  {
+    "slug": "wearable-ecg",
+    "number": "02",
+    "theme": "ecg",
+    "repo": "Wearable-ECG-Monitoring",
+    "demo": "https://jinxiao-wan.github.io/Wearable-ECG-Monitoring/",
+    "en": {
+      "title": "Wearable ECG monitoring",
+      "tag": "Biosignal sensing · Hardware",
+      "lead": "A team prototype combining wearable electrodes, ECG acquisition, Bluetooth and a mobile waveform interface.",
+      "meta": [
+        "Team project · 2022–2023",
+        "PCB · filtering · WeChat",
+        "Browser explorer available"
+      ],
+      "overview": "The original project connects an electrode concept to ECG acquisition and wireless display. The illustrated archive follows circuit design, PCB routing, enclosure studies and physical prototyping.",
+      "work": [
+        "PCB design and circuit integration within the team.",
+        "ECG filtering and signal-processing experiments.",
+        "WeChat mini-program development for acquisition and waveform display."
+      ],
+      "steps": [
+        [
+          "Design",
+          "Electrodes, acquisition circuit and enclosure studies."
+        ],
+        [
+          "Prototype",
+          "Manufactured boards and wearable parts."
+        ],
+        [
+          "Connect",
+          "Bluetooth acquisition and mobile display."
+        ],
+        [
+          "Analyze",
+          "Filtering and beat-detection experiments."
+        ]
+      ],
+      "outcome": "The rebuilt repository includes original hardware evidence, repaired software and a public ECG explorer. Its beat-detection evaluation uses one supplied MIT-BIH record. Native CAD/fabrication files and clinical validation were not supplied.",
+      "gallery": [
+        [
+          "Physical prototypes",
+          "Original boards, enclosure parts and electrode forms.",
+          "https://jinxiao-wan.github.io/Wearable-ECG-Monitoring/assets/manufactured-parts.jpg"
+        ],
+        [
+          "PCB design",
+          "Original routing screenshot.",
+          "https://jinxiao-wan.github.io/Wearable-ECG-Monitoring/assets/pcb-layout.png"
+        ],
+        [
+          "Mechanical study",
+          "Original exported housing render.",
+          "https://jinxiao-wan.github.io/Wearable-ECG-Monitoring/assets/round-enclosure-render.png"
+        ]
+      ]
+    },
+    "zh": {
+      "title": "可穿戴心电监测系统",
+      "tag": "生物信号 · 硬件设计",
+      "lead": "结合可穿戴电极、心电采集、蓝牙与移动端波形显示的团队原型。",
+      "meta": [
+        "团队项目 · 2022–2023",
+        "PCB · 滤波 · 微信小程序",
+        "可在线查看信号"
+      ],
+      "overview": "原项目将电极概念连接到心电采集与无线显示。图文仓库展示电路设计、PCB 布线、外壳建模与实物制作过程。",
+      "work": [
+        "参与 PCB 设计与电路集成。",
+        "心电滤波与信号处理实验。",
+        "开发微信小程序的采集与波形显示功能。"
+      ],
+      "steps": [
+        [
+          "设计",
+          "电极、采集电路与外壳方案。"
+        ],
+        [
+          "制作",
+          "电路板与可穿戴部件原型。"
+        ],
+        [
+          "连接",
+          "蓝牙采集与移动端显示。"
+        ],
+        [
+          "分析",
+          "滤波与心搏检测实验。"
+        ]
+      ],
+      "outcome": "重建仓库包含原始硬件图片、修复的软件及在线心电查看工具。心搏检测评测仅使用提供的一条 MIT-BIH 记录。未提供原生 CAD、制造文件或临床验证。",
+      "gallery": [
+        [
+          "实物原型",
+          "原始电路板、外壳部件与电极形态。",
+          "https://jinxiao-wan.github.io/Wearable-ECG-Monitoring/assets/manufactured-parts.jpg"
+        ],
+        [
+          "PCB 设计",
+          "原始布线截图。",
+          "https://jinxiao-wan.github.io/Wearable-ECG-Monitoring/assets/pcb-layout.png"
+        ],
+        [
+          "机械方案",
+          "原始外壳模型导出图。",
+          "https://jinxiao-wan.github.io/Wearable-ECG-Monitoring/assets/round-enclosure-render.png"
+        ]
+      ]
+    }
+  },
+  {
+    "slug": "deltav-control",
+    "number": "03",
+    "theme": "control",
+    "repo": "DeltaV-Nitration-Process-Control-",
+    "demo": "https://jinxiao-wan.github.io/DeltaV-Nitration-Process-Control-/",
+    "en": {
+      "title": "DeltaV nitration process control",
+      "tag": "Process control · DCS",
+      "lead": "A bachelor thesis covering coordinated control, startup logic and operator supervision in DeltaV.",
+      "meta": [
+        "Independent thesis · 2024",
+        "DeltaV · Control Studio",
+        "Interactive control demo"
+      ],
+      "overview": "The thesis studies temperature–flow cascade control and a feed-ratio follower, alongside system architecture, I/O, startup sequencing, alarms and operator displays.",
+      "work": [
+        "Analyzed process requirements and compared control structures.",
+        "Designed control modules, startup sequence and alarm logic.",
+        "Developed operator displays and reviewed simulated trends."
+      ],
+      "steps": [
+        [
+          "Define",
+          "Process requirements, system architecture and I/O."
+        ],
+        [
+          "Design",
+          "Temperature, flow and ratio control."
+        ],
+        [
+          "Configure",
+          "Modules, sequence and operator displays."
+        ],
+        [
+          "Review",
+          "Simulated trends and documented design."
+        ]
+      ],
+      "outcome": "The original work is theoretical and simulation-level research. The new browser demo makes cascade, ratio, disturbance and trip/reset behavior visible through a normalized teaching model. It does not reproduce a commissioned plant or a native DeltaV configuration.",
+      "gallery": [
+        [
+          "System architecture",
+          "Original controller and workstation design.",
+          "https://jinxiao-wan.github.io/DeltaV-Nitration-Process-Control-/assets/system-architecture.jpg"
+        ],
+        [
+          "Control structure",
+          "Original cascade and ratio diagram.",
+          "https://jinxiao-wan.github.io/DeltaV-Nitration-Process-Control-/assets/composite-loop.jpg"
+        ],
+        [
+          "Operator display",
+          "Original thesis HMI screenshot.",
+          "https://jinxiao-wan.github.io/DeltaV-Nitration-Process-Control-/assets/original-hmi.jpg"
+        ]
+      ]
+    },
+    "zh": {
+      "title": "基于 DeltaV 的硝化过程控制",
+      "tag": "过程控制 · DCS",
+      "lead": "本科毕业设计，涵盖 DeltaV 协调控制、开车逻辑与操作员监控。",
+      "meta": [
+        "独立毕业设计 · 2024",
+        "DeltaV · Control Studio",
+        "可交互控制演示"
+      ],
+      "overview": "论文研究温度—流量串级控制及进料比例跟随，并设计系统架构、I/O、开车顺控、报警与操作员画面。",
+      "work": [
+        "分析过程需求并比较控制结构。",
+        "设计控制模块、开车顺序与报警逻辑。",
+        "制作操作员画面并分析仿真趋势。"
+      ],
+      "steps": [
+        [
+          "定义",
+          "过程需求、系统架构与 I/O。"
+        ],
+        [
+          "设计",
+          "温度、流量与比例控制。"
+        ],
+        [
+          "组态",
+          "模块、顺控与操作员画面。"
+        ],
+        [
+          "检查",
+          "仿真趋势与设计文档。"
+        ]
+      ],
+      "outcome": "原项目属于理论与仿真研究。新增浏览器演示使用归一化教学模型展示串级、比例、扰动与跳闸复位行为，并非已投产装置或原生 DeltaV 配置的复现。",
+      "gallery": [
+        [
+          "系统架构",
+          "原始控制器与工作站设计。",
+          "https://jinxiao-wan.github.io/DeltaV-Nitration-Process-Control-/assets/system-architecture.jpg"
+        ],
+        [
+          "控制结构",
+          "原始串级与比例控制图。",
+          "https://jinxiao-wan.github.io/DeltaV-Nitration-Process-Control-/assets/composite-loop.jpg"
+        ],
+        [
+          "操作员画面",
+          "原论文 HMI 截图。",
+          "https://jinxiao-wan.github.io/DeltaV-Nitration-Process-Control-/assets/original-hmi.jpg"
+        ]
+      ]
+    }
+  },
+  {
+    "slug": "waste-sorting",
+    "number": "04",
+    "theme": "waste",
+    "repo": "Raspberry-Pi-Children-s-Garbage-Sorting-Learning-System",
+    "demo": "https://jinxiao-wan.github.io/Raspberry-Pi-Children-s-Garbage-Sorting-Learning-System/",
+    "en": {
+      "title": "Children’s waste sorting app",
+      "tag": "Applied AI · Learning product",
+      "lead": "A WeChat learning project rebuilt as a bilingual browser app with a sorting game, dictionary and photo workflow.",
+      "meta": [
+        "Team project · 2021–2022",
+        "JavaScript · WeChat · Baidu API",
+        "Browser app · offline support"
+      ],
+      "overview": "The original project helps children learn waste classification through recognition, search and play. Little Sorters brings that learning flow to a standalone browser app.",
+      "work": [
+        "Developed the sorting game, scoring and feedback.",
+        "Integrated the game with a teammate’s recognition feature.",
+        "Documented the workflow and recognition-test limitations."
+      ],
+      "steps": [
+        [
+          "Ask",
+          "Photo input or an object-name query."
+        ],
+        [
+          "Identify",
+          "Review candidate labels or enter a name."
+        ],
+        [
+          "Look up",
+          "Map the object to the original dictionary."
+        ],
+        [
+          "Practise",
+          "Sort objects and read feedback."
+        ]
+      ],
+      "outcome": "The rebuilt app supports English/Chinese, dictionary search and offline use. Its public photo lab is a recorded-example demonstration; live Baidu recognition requires the optional local server. Raspberry Pi was the original project context, with no completed Pi hardware prototype verified in the archive.",
+      "gallery": [
+        [
+          "Browser app",
+          "2026 reconstruction with game and search.",
+          "https://raw.githubusercontent.com/jinxiao-wan/Raspberry-Pi-Children-s-Garbage-Sorting-Learning-System/main/docs/previews/app-desktop.jpg"
+        ],
+        [
+          "Original sorting game",
+          "Archived WeChat interface.",
+          "https://jinxiao-wan.github.io/Raspberry-Pi-Children-s-Garbage-Sorting-Learning-System/assets/original-game.jpg"
+        ],
+        [
+          "Recognition test",
+          "Original paper-cup recognition example.",
+          "https://jinxiao-wan.github.io/Raspberry-Pi-Children-s-Garbage-Sorting-Learning-System/assets/recognition-cup.jpg"
+        ]
+      ]
+    },
+    "zh": {
+      "title": "儿童垃圾分类学习应用",
+      "tag": "应用 AI · 学习产品",
+      "lead": "将微信学习项目重建为双语浏览器应用，包含分类游戏、词典与照片查询流程。",
+      "meta": [
+        "团队项目 · 2021–2022",
+        "JavaScript · 微信 · 百度 API",
+        "浏览器应用 · 离线支持"
+      ],
+      "overview": "原项目通过识别、搜索与游戏帮助儿童学习垃圾分类。Little Sorters 将学习流程迁移到独立的浏览器应用。",
+      "work": [
+        "开发分类游戏、计分与反馈。",
+        "将游戏与队友的识别功能集成。",
+        "记录操作流程与识别测试中的局限。"
+      ],
+      "steps": [
+        [
+          "提问",
+          "输入照片或物品名称。"
+        ],
+        [
+          "确认",
+          "选择候选名称或手动输入。"
+        ],
+        [
+          "查询",
+          "将名称匹配到原始分类词典。"
+        ],
+        [
+          "练习",
+          "分类物品并阅读反馈。"
+        ]
+      ],
+      "outcome": "重建应用支持中英文、词典查询与离线使用。公开照片实验室是已记录示例的演示；实时百度识别需使用可选的本地服务。树莓派是原始项目背景，档案中未确认完整的树莓派硬件原型。",
+      "gallery": [
+        [
+          "浏览器应用",
+          "2026 年重建，包含游戏与搜索。",
+          "https://raw.githubusercontent.com/jinxiao-wan/Raspberry-Pi-Children-s-Garbage-Sorting-Learning-System/main/docs/previews/app-desktop.jpg"
+        ],
+        [
+          "原始分类游戏",
+          "微信界面档案。",
+          "https://jinxiao-wan.github.io/Raspberry-Pi-Children-s-Garbage-Sorting-Learning-System/assets/original-game.jpg"
+        ],
+        [
+          "识别测试",
+          "原始纸杯识别示例。",
+          "https://jinxiao-wan.github.io/Raspberry-Pi-Children-s-Garbage-Sorting-Learning-System/assets/recognition-cup.jpg"
+        ]
+      ]
+    }
+  }
+]
