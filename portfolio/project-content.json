@@ -50,6 +50,21 @@
           "Coordinate filtering",
           "Raw and Kalman-filtered trajectories.",
           "/portfolio/stereo-kalman.png"
+        ],
+        [
+          "Hand-driven operation",
+          "Original photograph of the camera-to-robot experiment.",
+          "https://raw.githubusercontent.com/jinxiao-wan/Robot-teleoperation-through-vision/main/report/IMG_9682.jpg"
+        ],
+        [
+          "Gripper experiment",
+          "Original robot and OnRobot gripper setup.",
+          "https://raw.githubusercontent.com/jinxiao-wan/Robot-teleoperation-through-vision/main/report/IMG_9686.jpg"
+        ],
+        [
+          "3D hand reconstruction",
+          "Reported hand-landmark reconstruction in 3D.",
+          "https://raw.githubusercontent.com/jinxiao-wan/Robot-teleoperation-through-vision/main/report/image.png"
         ]
       ]
     },
@@ -98,6 +113,21 @@
           "坐标滤波",
           "原始轨迹与卡尔曼滤波后的轨迹。",
           "/portfolio/stereo-kalman.png"
+        ],
+        [
+          "手部遥操作",
+          "相机到机器人实验的原始照片。",
+          "https://raw.githubusercontent.com/jinxiao-wan/Robot-teleoperation-through-vision/main/report/IMG_9682.jpg"
+        ],
+        [
+          "夹爪实验",
+          "原始机器人与 OnRobot 夹爪环境。",
+          "https://raw.githubusercontent.com/jinxiao-wan/Robot-teleoperation-through-vision/main/report/IMG_9686.jpg"
+        ],
+        [
+          "三维手部重建",
+          "报告中的手部关键点三维重建。",
+          "https://raw.githubusercontent.com/jinxiao-wan/Robot-teleoperation-through-vision/main/report/image.png"
         ]
       ]
     },
@@ -179,6 +209,21 @@
           "Mechanical study",
           "Original exported housing render.",
           "https://jinxiao-wan.github.io/Wearable-ECG-Monitoring/assets/round-enclosure-render.png"
+        ],
+        [
+          "Acquisition circuit",
+          "Original ECG acquisition, power and Bluetooth schematic.",
+          "https://jinxiao-wan.github.io/Wearable-ECG-Monitoring/assets/circuit-schematic.png"
+        ],
+        [
+          "Mobile waveform interface",
+          "Archived WeChat monitoring screen.",
+          "https://jinxiao-wan.github.io/Wearable-ECG-Monitoring/assets/original-app-monitor.png"
+        ],
+        [
+          "Signal experiment",
+          "Original MATLAB ECG signal figure.",
+          "https://jinxiao-wan.github.io/Wearable-ECG-Monitoring/assets/original-ecg-trace.png"
         ]
       ]
     },
@@ -231,6 +276,21 @@
           "机械方案",
           "原始外壳模型导出图。",
           "https://jinxiao-wan.github.io/Wearable-ECG-Monitoring/assets/round-enclosure-render.png"
+        ],
+        [
+          "采集电路",
+          "原始心电采集、供电与蓝牙电路图。",
+          "https://jinxiao-wan.github.io/Wearable-ECG-Monitoring/assets/circuit-schematic.png"
+        ],
+        [
+          "移动端波形界面",
+          "原始微信心电监测画面。",
+          "https://jinxiao-wan.github.io/Wearable-ECG-Monitoring/assets/original-app-monitor.png"
+        ],
+        [
+          "信号实验",
+          "原始 MATLAB 心电信号图。",
+          "https://jinxiao-wan.github.io/Wearable-ECG-Monitoring/assets/original-ecg-trace.png"
         ]
       ]
     },
@@ -312,6 +372,21 @@
           "Operator display",
           "Original thesis HMI screenshot.",
           "https://jinxiao-wan.github.io/DeltaV-Nitration-Process-Control-/assets/original-hmi.jpg"
+        ],
+        [
+          "Module connections",
+          "Original master, follower and controller links.",
+          "https://jinxiao-wan.github.io/DeltaV-Nitration-Process-Control-/assets/module-links.jpg"
+        ],
+        [
+          "Startup configuration",
+          "Original Control Studio sequence screenshot.",
+          "https://jinxiao-wan.github.io/DeltaV-Nitration-Process-Control-/assets/startup-studio.jpg"
+        ],
+        [
+          "Temperature trend",
+          "Archived simulation trend from the thesis.",
+          "https://jinxiao-wan.github.io/DeltaV-Nitration-Process-Control-/assets/temperature-trend.jpg"
         ]
       ]
     },
@@ -364,6 +439,21 @@
           "操作员画面",
           "原论文 HMI 截图。",
           "https://jinxiao-wan.github.io/DeltaV-Nitration-Process-Control-/assets/original-hmi.jpg"
+        ],
+        [
+          "模块连接",
+          "原始主控制器、跟随器与控制模块连接。",
+          "https://jinxiao-wan.github.io/DeltaV-Nitration-Process-Control-/assets/module-links.jpg"
+        ],
+        [
+          "开车组态",
+          "原始 Control Studio 顺控截图。",
+          "https://jinxiao-wan.github.io/DeltaV-Nitration-Process-Control-/assets/startup-studio.jpg"
+        ],
+        [
+          "温度趋势",
+          "论文中的仿真趋势图。",
+          "https://jinxiao-wan.github.io/DeltaV-Nitration-Process-Control-/assets/temperature-trend.jpg"
         ]
       ]
     },
@@ -445,6 +535,21 @@
           "Recognition test",
           "Original paper-cup recognition example.",
           "https://jinxiao-wan.github.io/Raspberry-Pi-Children-s-Garbage-Sorting-Learning-System/assets/recognition-cup.jpg"
+        ],
+        [
+          "Category library",
+          "Original WeChat waste-category interface.",
+          "https://jinxiao-wan.github.io/Raspberry-Pi-Children-s-Garbage-Sorting-Learning-System/assets/original-categories.jpg"
+        ],
+        [
+          "Photo workflow",
+          "Recorded-example walkthrough of the rebuilt app; not live inference.",
+          "https://raw.githubusercontent.com/jinxiao-wan/Raspberry-Pi-Children-s-Garbage-Sorting-Learning-System/main/docs/previews/photo-process.gif"
+        ],
+        [
+          "Mobile app",
+          "Phone layout of the 2026 browser reconstruction.",
+          "https://raw.githubusercontent.com/jinxiao-wan/Raspberry-Pi-Children-s-Garbage-Sorting-Learning-System/main/docs/previews/app-mobile.jpg"
         ]
       ]
     },
@@ -497,6 +602,21 @@
           "识别测试",
           "原始纸杯识别示例。",
           "https://jinxiao-wan.github.io/Raspberry-Pi-Children-s-Garbage-Sorting-Learning-System/assets/recognition-cup.jpg"
+        ],
+        [
+          "分类词典",
+          "原始微信垃圾分类界面。",
+          "https://jinxiao-wan.github.io/Raspberry-Pi-Children-s-Garbage-Sorting-Learning-System/assets/original-categories.jpg"
+        ],
+        [
+          "照片流程",
+          "重建应用的记录示例演示，并非实时推理。",
+          "https://raw.githubusercontent.com/jinxiao-wan/Raspberry-Pi-Children-s-Garbage-Sorting-Learning-System/main/docs/previews/photo-process.gif"
+        ],
+        [
+          "手机应用",
+          "2026 年重建浏览器应用的手机布局。",
+          "https://raw.githubusercontent.com/jinxiao-wan/Raspberry-Pi-Children-s-Garbage-Sorting-Learning-System/main/docs/previews/app-mobile.jpg"
         ]
       ]
     },
