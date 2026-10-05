@@ -18,6 +18,7 @@
       "work": [
         "Stereo camera calibration and paired image capture.",
         "Hand-landmark triangulation and coordinate filtering.",
+        "Robot control: hand-position mapping, motion commands and UR5e integration.",
         "Integration and documentation with the project team."
       ],
       "steps": [
@@ -65,6 +66,7 @@
       "work": [
         "双目标定与配对图像采集。",
         "手部关键点三角测量与坐标滤波。",
+        "机器人控制：手部位置映射、运动指令与 UR5e 集成。",
         "与团队共同完成系统集成和文档。"
       ],
       "steps": [
@@ -96,6 +98,28 @@
           "坐标滤波",
           "原始轨迹与卡尔曼滤波后的轨迹。",
           "/portfolio/stereo-kalman.png"
+        ]
+      ]
+    },
+    "technical": {
+      "en": [
+        [
+          "Perception and filtering",
+          "Paired camera views provide corresponding MediaPipe hand landmarks. Stereo calibration supplies the projection geometry for triangulation, and Kalman filtering reduces coordinate noise before the position is used for control."
+        ],
+        [
+          "Robot control",
+          "My work also included the robot-control pipeline: mapping the tracked hand position to robot motion commands and integrating that input with UR5e control. The project combines a keyboard positioning baseline with continuous hand-driven operation and supports an OnRobot gripper."
+        ]
+      ],
+      "zh": [
+        [
+          "感知与滤波",
+          "从配对画面提取对应的 MediaPipe 手部关键点，通过双目标定得到投影关系并进行三角测量。卡尔曼滤波降低坐标噪声，再将位置提供给控制环节。"
+        ],
+        [
+          "机器人控制",
+          "我的工作也包括机器人控制管线：将追踪到的手部位置映射为运动指令，并接入 UR5e 控制。项目结合键盘定位基线与连续手部遥操作，并支持 OnRobot 夹爪。"
         ]
       ]
     }
@@ -209,6 +233,28 @@
           "https://jinxiao-wan.github.io/Wearable-ECG-Monitoring/assets/round-enclosure-render.png"
         ]
       ]
+    },
+    "technical": {
+      "en": [
+        [
+          "Hardware and acquisition",
+          "The archived schematic connects a BMD101 ECG acquisition chip, TPS79333 regulator and BLE module labelled CC2640R2F. Original PCB routing, manufactured boards and SolidWorks render/prototype comparisons show the team’s path from circuit and enclosure design to physical parts."
+        ],
+        [
+          "Software and signal processing",
+          "The WeChat interface handles Bluetooth discovery, sample reception and waveform display. The reconstruction adds buffered packet parsing, checksum checks, recording and CSV export. Offline analysis includes filtering and R-peak detection; the public explorer lets visitors inspect a supplied MIT-BIH sample."
+        ]
+      ],
+      "zh": [
+        [
+          "硬件与采集",
+          "原始电路图包含 BMD101 心电采集芯片、TPS79333 稳压器及标注为 CC2640R2F 的蓝牙模块。PCB 布线、实物电路板及 SolidWorks 模型与原型对照展示团队从电路和外壳设计到制作的过程。"
+        ],
+        [
+          "软件与信号处理",
+          "微信界面负责蓝牙搜索、样本接收与波形显示。重建版本增加缓冲数据解析、校验、记录及 CSV 导出。离线分析包括滤波与 R 峰检测，在线工具可查看提供的 MIT-BIH 样本。"
+        ]
+      ]
     }
   },
   {
@@ -320,6 +366,28 @@
           "https://jinxiao-wan.github.io/DeltaV-Nitration-Process-Control-/assets/original-hmi.jpg"
         ]
       ]
+    },
+    "technical": {
+      "en": [
+        [
+          "Coordinated control",
+          "The temperature master supplies the setpoint of an inner feed-flow controller. A second feed follows a ratio of the measured first-feed flow. The thesis compares single-loop, cascade and composite structures and documents controller parameters and module connections."
+        ],
+        [
+          "Sequence and operator interface",
+          "Startup sequencing, permissive/interlock logic and alarms coordinate operating states with the control loops. Original configuration and HMI screenshots show the engineering work. The browser demo adds setpoint changes, flow/thermal disturbances, trend export and a latched trip that requires reset and a separate restart."
+        ]
+      ],
+      "zh": [
+        [
+          "协调控制",
+          "温度主控制器为内层进料流量控制器提供设定值，第二路进料按第一路实测流量的比例跟随。论文比较单回路、串级及组合结构，并记录控制参数和模块连接。"
+        ],
+        [
+          "顺控与操作员界面",
+          "开车顺控、许可与联锁逻辑及报警协调运行状态与控制回路。原始组态和 HMI 截图展示工程设计。浏览器演示新增设定值调节、流量与热扰动、趋势导出，以及需复位后单独启动的锁存跳闸。"
+        ]
+      ]
     }
   },
   {
@@ -429,6 +497,28 @@
           "识别测试",
           "原始纸杯识别示例。",
           "https://jinxiao-wan.github.io/Raspberry-Pi-Children-s-Garbage-Sorting-Learning-System/assets/recognition-cup.jpg"
+        ]
+      ]
+    },
+    "technical": {
+      "en": [
+        [
+          "Learning and recognition",
+          "The game turns classification into repeated decisions with scoring and explanatory feedback. In the original recognition flow, Baidu returns candidate object names; the learner confirms a name before the dictionary supplies a category. The reports also document mistakes caused by background objects and ambiguous labels."
+        ],
+        [
+          "From WeChat to a browser app",
+          "The reconstruction preserves the original dictionary and adds an eight-object challenge, English/Chinese switching, category filters and locally stored best scores. The photo lab demonstrates the recognition-to-lookup process through recorded examples, while an optional local adapter supports live Baidu recognition with the user’s own keys."
+        ]
+      ],
+      "zh": [
+        [
+          "学习与识别",
+          "游戏通过计分和解释反馈，让儿童反复练习分类判断。原识别流程由百度返回候选物品名称，学习者确认名称后再从词典查询类别。报告也记录了背景物品和模糊标签引起的识别错误。"
+        ],
+        [
+          "从微信到浏览器应用",
+          "重建版本保留原始词典，并增加八物品挑战、中英文切换、分类筛选及本地最高分记录。照片实验室通过记录示例展示识别到查询的流程，可选的本地适配器允许用户使用自己的密钥进行实时百度识别。"
         ]
       ]
     }
